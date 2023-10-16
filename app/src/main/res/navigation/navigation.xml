@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mockiListFragment">
+
+    <fragment
+        android:id="@+id/mockiListFragment"
+        android:name="com.alf.tecnica.view.fragments.mockiListFragment"
+        android:label="fragment_mocki_list"
+        tools:layout="@layout/fragment_mocki_list" >
+        <action
+            android:id="@+id/action_mockiListFragment_to_mockiDetailFragment"
+            app:destination="@id/mockiDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mockiDetailFragment"
+        android:name="com.alf.tecnica.view.fragments.mockiDetailFragment"
+        android:label="fragment_mocki_detail"
+        tools:layout="@layout/fragment_mocki_detail" />
+</navigation>
