@@ -12,4 +12,4 @@ Proyecto de login para prueba tecnica
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tuusuario/tuproyecto.git
+   git clone https://github.com/brandonknd/tecnicas.git
